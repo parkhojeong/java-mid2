@@ -10,7 +10,7 @@ public class GenericMethod {
         System.out.println("obj = " + obj);
         return obj;
     }
-    
+
     public static <T extends Number> T numberMethod(T obj) {
         System.out.println("obj = " + obj);
         return obj;
