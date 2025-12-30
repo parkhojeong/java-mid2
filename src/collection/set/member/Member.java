@@ -21,6 +21,13 @@ public class Member {
     }
 
     @Override
+    public String toString() {
+        return "Member{" +
+                "id='" + id + '\'' +
+                '}';
+    }
+
+    @Override
     public int hashCode() {
         return Objects.hashCode(id);
     }
